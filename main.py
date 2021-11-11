@@ -23,3 +23,11 @@ for i in range(0, len(lista)):
     if (lista[i] % 2 == 0 and lista[i] > 0):
         listaPares.append(lista[i])
 print(listaPares)
+
+# Ocorrências
+
+ocorrencias = 0
+for i in range(0, len(lista)):
+    if (lista[i] == lista[0]):
+        ocorrencias += 1
+print(ocorrencias)

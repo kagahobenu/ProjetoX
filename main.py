@@ -31,3 +31,21 @@ for i in range(0, len(lista)):
     if (lista[i] == lista[0]):
         ocorrencias += 1
 print(ocorrencias)
+
+# Média dos elementos
+
+media = 0
+soma = 0
+for i in range(0, len(lista)):
+    soma += lista[i]
+media = soma / len(lista)
+print(f'{media:.2f}')
+
+# Soma dos elementos de valor negativo
+
+somaNegativo = 0
+
+for i in range(0, len(lista)):
+    if(lista[i] < 0):
+        somaNegativo += lista[i]
+print(somaNegativo)

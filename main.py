@@ -20,6 +20,6 @@ print(menor)
 
 listaPares = []
 for i in range(0, len(lista)):
-    if (lista[i] % 2 == 0):
+    if (lista[i] % 2 == 0 and lista[i] > 0):
         listaPares.append(lista[i])
 print(listaPares)
